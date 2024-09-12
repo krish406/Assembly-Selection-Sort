@@ -4,7 +4,7 @@ jal selectionSort
 j terminate
 #s0 -> i
 #s1 -> min_idx
-#selection sort has to load its own return address at the end lol
+#selection sort has to load its own return address at the end 
 
 selectionSort:
  addi sp, sp, -20 #allocates space for 5
